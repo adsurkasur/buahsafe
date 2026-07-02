@@ -1,0 +1,33 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Model & Execution Outputs generated during notebook run
+buahsafe_learning_outputs/
+*.joblib
+*.zip
+
+# Environment & Secret files
+.env
+.env.*
+
+# IDE & OS generated files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
