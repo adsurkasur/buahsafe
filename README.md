@@ -15,6 +15,7 @@ Penelitian dalam repositori ini memanfaatkan dataset sekunder reflektansi biji k
 - Pelatihan model klasifikasi (*Logistic Regression*, *Support Vector Machine*, *Random Forest*).
 - *Hyperparameter tuning* dan *feature selection benchmark*.
 - Analisis regresi nilai *Agtron*.
+- **Pondasi Ilmu & First Principles:** Penjelasan mendalam dari nol mengenai fisika spektroskopi (absorpsi, refleksi, hamburan difus), biologi buah (mengapa kerusakan sel merubah pantulan NIR 940 nm), definisi dasar ML (fitur, label, generalisasi), dan kausalitas data.
 
 > [!NOTE]
 > Karena objek biologis dataset latihan ini adalah kopi (bukan buah jambu kristal), model yang dihasilkan di sini merupakan **pipeline pendahuluan**. Saat dataset primer BuahSafe tersedia, seluruh alur kerja ini langsung diterapkan dengan mengganti dataset dan target klasifikasinya.
