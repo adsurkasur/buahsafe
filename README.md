@@ -109,10 +109,21 @@ Lakukan perbaikan sistematis di 3 pilar:
 
 ---
 
-## 📊 Presentasi Eksekutif PowerPoint (.pptx)
+## 📊 Presentasi Eksekutif PowerPoint (.pptx) & Aset Visual
 
-Repositori ini juga menyertakan file presentasi eksekutif bergaya modern berformat *Widescreen 16:9*: **`BuahSafe_Super_Comprehensive_Presentation.pptx`**.
-Presentasi ini terdiri dari **16 slide super komprehensif** yang merangkum keseluruhan filosofi *First Principles*, kausalitas biologi-fisika, arsitektur pipeline, hasil perbandingan model, hingga peta jalan (*roadmap*) implementasi perangkat keras BuahSafe yang siap digunakan untuk presentasi kepada investor, mitra agronomis, maupun manajemen super market.
+Repositori ini menyertakan presentasi eksekutif bergaya modern berformat *Widescreen 16:9* dengan 2 varian:
+1. **`BuahSafe_Super_Comprehensive_Presentation_Visual_Enhanced.pptx` (Versi Visual Paling Lengkap & Rekomendasi Utama):** Terdiri dari **20 slide super ekstensif** yang tidak hanya menjelaskan kamus istilah secara harfiah dan jembatan ilmu dari kopi ke jambu kristal, tetapi juga **diperkaya dengan 8 gambar ilustrasi fisika, grafik data nyata, bar chart komparasi model, hingga diagram matriks risiko** yang disematkan langsung di dalam slide!
+2. **`Good_BuahSafe_Super_Comprehensive_Presentation.pptx`:** Cadangan/backup versi 20 slide sebelumnya.
+
+Semua gambar resolusi tinggi (300 DPI) yang digunakan dalam presentasi disimpan secara modular di dalam folder **`assets/`**:
+* `asset_1_subsurface_scattering.png` (Ilustrasi Fisika *Sub-surface Scattering*)
+* `asset_2_causality_flow.png` (Diagram Alur Kausalitas Fisika-Kimia-Biologi)
+* `asset_3_spectral_curves.png` (Grafik Nyata Spektrum Reflektansi 18 Kanal AS7265x)
+* `asset_4_coffee_to_guava_bridge.png` (Infografis Jembatan Ilmu Kopi vs Jambu)
+* `asset_5_model_comparison.png` (Bar Chart Komparasi Model Melawan *Dummy Baseline*)
+* `asset_6_channel_benchmark.png` (Grafik Benchmark 4 vs 8 vs 12 vs 18 Kanal)
+* `asset_7_feature_importance.png` (Komparasi ANOVA vs Permutation Importance pada 940 nm)
+* `asset_8_risk_matrix.png` (Diagram Matriks Risiko *False Negative* vs *False Positive*)
 
 ---
 
