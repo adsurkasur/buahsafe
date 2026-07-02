@@ -109,21 +109,28 @@ Lakukan perbaikan sistematis di 3 pilar:
 
 ---
 
-## 📊 Presentasi Eksekutif PowerPoint (.pptx) & Aset Visual
+## 📊 Presentasi Eksekutif PowerPoint (.pptx) & Bedah Tuntas Pipeline
 
-Repositori ini menyertakan presentasi eksekutif bergaya modern berformat *Widescreen 16:9* dengan 2 varian:
-1. **`BuahSafe_Super_Comprehensive_Presentation_Visual_Enhanced.pptx` (Versi Visual Paling Lengkap & Rekomendasi Utama):** Terdiri dari **20 slide super ekstensif** yang tidak hanya menjelaskan kamus istilah secara harfiah dan jembatan ilmu dari kopi ke jambu kristal, tetapi juga **diperkaya dengan 8 gambar ilustrasi fisika, grafik data nyata, bar chart komparasi model, hingga diagram matriks risiko** yang disematkan langsung di dalam slide!
-2. **`Good_BuahSafe_Super_Comprehensive_Presentation.pptx`:** Cadangan/backup versi 20 slide sebelumnya.
+Repositori ini menyertakan presentasi eksekutif bergaya modern berformat *Widescreen 16:9* dengan beberapa varian:
+1. **`BuahSafe_Super_Comprehensive_Presentation_Deep_Dive.pptx` (Rekomendasi Utama - 28 Slide Deep Dive Walkthrough):** Versi paling komprehensif tanpa batasan slide yang membedah tuntas pipeline secara kronologis dari EDA, Matriks Korelasi Antarkanal, Preprocessing StandardScaler, hingga Evaluasi Confusion Matrix satu per satu untuk seluruh model (*Dummy, Logistic Regression, Random Forest, SVM Default, SVM Tuned, & Regresi Agtron*). Tata letak dirancang modular (*split-screen*) tanpa redundansi teks-gambar dan mempertahankan rasio aspek gambar 100% sempurna tanpa distorsi.
+2. **`BuahSafe_Super_Comprehensive_Presentation_Visual_Enhanced.pptx`:** Versi ekstensif 20 slide berfokus pada ringkasan eksekutif visual.
+3. **`Good_BuahSafe_Super_Comprehensive_Presentation.pptx`:** Cadangan/backup versi rujukan awal yang sudah bagus.
 
-Semua gambar resolusi tinggi (300 DPI) yang digunakan dalam presentasi disimpan secara modular di dalam folder **`assets/`**:
-* `asset_1_subsurface_scattering.png` (Ilustrasi Fisika *Sub-surface Scattering*)
-* `asset_2_causality_flow.png` (Diagram Alur Kausalitas Fisika-Kimia-Biologi)
-* `asset_3_spectral_curves.png` (Grafik Nyata Spektrum Reflektansi 18 Kanal AS7265x)
-* `asset_4_coffee_to_guava_bridge.png` (Infografis Jembatan Ilmu Kopi vs Jambu)
-* `asset_5_model_comparison.png` (Bar Chart Komparasi Model Melawan *Dummy Baseline*)
-* `asset_6_channel_benchmark.png` (Grafik Benchmark 4 vs 8 vs 12 vs 18 Kanal)
-* `asset_7_feature_importance.png` (Komparasi ANOVA vs Permutation Importance pada 940 nm)
-* `asset_8_risk_matrix.png` (Diagram Matriks Risiko *False Negative* vs *False Positive*)
+Semua 21 gambar resolusi tinggi (300 DPI) yang disematkan di dalam presentasi bersumber langsung dari eksekusi nyata pipeline di Jupyter Notebook dan disimpan di dalam folder **`assets/`**:
+* **Grafik Diagnostik Otentik Notebook:**
+  * `fig1_eda_agtron_dist.png` (Histogram Distribusi Nilai Agtron)
+  * `fig2_eda_spectral_curves.png` (Profil Kurva Spektral 18 Kanal berdasarkan Derajat Sangrai)
+  * `fig3_correlation_matrix.png` (Heatmap Matriks Korelasi Pearson 18x18 Kanal)
+  * `fig4_preprocessing_scaling.png` (Komparasi Intensitas Raw vs StandardScaler)
+  * `fig5_cm_dummy.png` hingga `fig9_cm_svm_tuned.png` (Confusion Matrix Lengkap Seluruh Model)
+  * `fig10_model_comparison_bar.png` (Bar Chart Akurasi Seluruh Model Klasifikasi)
+  * `fig11_regression_actual_vs_pred.png` (Scatter Plot Regresi Kontinu Nilai Agtron)
+  * `fig12_channel_benchmark.png` & `fig13_feature_importance.png` (Analisis Kanal & Feature Importance)
+* **Diagram Konsep & Kausalitas Ilmiah:**
+  * `asset_1_subsurface_scattering.png` (Ilustrasi Fisika *Sub-surface Scattering*)
+  * `asset_2_causality_flow.png` (Diagram Alur Kausalitas Fisika-Kimia-Biologi)
+  * `asset_4_coffee_to_guava_bridge.png` (Infografis Jembatan Ilmu Kopi vs Jambu)
+  * `asset_8_risk_matrix.png` (Matriks Risiko *False Negative* vs *False Positive*)
 
 ---
 
