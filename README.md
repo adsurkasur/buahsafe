@@ -76,6 +76,13 @@ Lakukan perbaikan sistematis di 3 pilar:
 
 ---
 
+## 📊 Presentasi Eksekutif PowerPoint (.pptx)
+
+Repositori ini juga menyertakan file presentasi eksekutif bergaya modern berformat *Widescreen 16:9*: **`BuahSafe_Super_Comprehensive_Presentation.pptx`**.
+Presentasi ini terdiri dari **16 slide super komprehensif** yang merangkum keseluruhan filosofi *First Principles*, kausalitas biologi-fisika, arsitektur pipeline, hasil perbandingan model, hingga peta jalan (*roadmap*) implementasi perangkat keras BuahSafe yang siap digunakan untuk presentasi kepada investor, mitra agronomis, maupun manajemen super market.
+
+---
+
 ## 🚀 Cara Menjalankan Secara Lokal
 
 ### 1. Buat dan Aktifkan Virtual Environment
