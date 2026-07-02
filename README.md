@@ -22,6 +22,39 @@ Penelitian dalam repositori ini memanfaatkan dataset sekunder reflektansi biji k
 
 ---
 
+## 📖 Kamus Istilah Lengkap (Literally Dijelaskan Per Istilah)
+
+* **Spektroskopi:** Ilmu fisika tentang interaksi cahaya dengan molekul/benda.
+* **Near-Infrared (NIR):** Cahaya inframerah dekat (700–1100 nm) yang tidak terlihat mata tetapi mampu menembus ke dalam jaringan sel buah.
+* **Reflektansi:** Persentase cahaya yang dipantulkan kembali oleh permukaan objek ke sensor.
+* **Hamburan Difus (*Sub-surface Scattering*):** Pantulan cahaya yang masuk ke bawah kulit, memantul di dalam daging buah, lalu keluar membawa informasi kerusakan internal.
+* **Agtron Value:** Skala standar internasional angka numerik industri kopi untuk mengukur kegelapan sangrai (Angka tinggi = sangrai muda/terang; Angka rendah = sangrai gelap).
+* **Reaksi Maillard & Melanoidin:** Pembentukan pigmen cokelat gelap pada biji kopi akibat reaksi panas antara asam amino dan gula.
+* **Ikatan Hidrogen (O-H):** Ikatan molekul air di daging buah yang menyerap kuat cahaya NIR pada panjang gelombang 940 nm.
+* **Larva Lalat Buah (*Bactrocera carambolae*):** Ulat hama yang memakan daging buah di dalam sementara kulit luarnya tetap tampak mulus.
+* **Fitur ($X$) & Target ($y$):** $X$ adalah 18 kolom angka dari sensor; $y$ adalah kelas kualitas atau angka yang ingin ditebak model.
+* **Overfitting:** Kondisi model AI menghafal soal latihan (100% saat latihan), tetapi bingung/hancur saat diuji pada buah asing di lapangan.
+* **GroupKFold:** Metode uji silang yang memastikan semua pemindaian ulang dari 1 buah fisik yang sama berada di kelompok yang sama (latih atau uji), mencegah penipuan akurasi (*Data Leakage*).
+* **StandardScaler:** Menyederhanakan skala semua kolom agar tidak ada angka raksasa yang menindas angka kecil dalam perhitungan algoritma.
+* **Permutation Importance:** Menguji vitalitas suatu kolom dengan mengacak angkanya; jika akurasi model hancur saat kolom diacak, berarti kolom tersebut sangat penting.
+
+---
+
+## ☕ Mengapa Menggunakan Kopi & Agtron? (Pemanfaatan & Jembatan ke Jambu Kristal)
+
+Penelitian pendahuluan ini **tidak mengabaikan kopi**, melainkan memanfaatkan fisika-kimia kopi sebagai **pembuktian konsep (*Proof of Concept*)** sebelum dihubungkan ke jambu kristal:
+
+### 1. Pemanfaatan Nyata Jika Diterapkan di Dunia Kopi
+Selama ini roaster kopi bergantung pada alat *Agtron Spectrophotometer* seharga **ratusan juta rupiah**. Kita membuktikan bahwa sensor 18-kanal **AS7265x** yang terjangkau **mampu memprediksi derajat sangrai (akurasi 75%) dan angka Agtron (regresi)** dengan mengenali pembentukan melanoidin dan kehilangan air. Ini membuktikan bahwa alat AS7265x beserta pipeline ML kita **sangat bernilai sebagai alat kontrol mutu non-destruktif murah bagi industri kopi!**
+
+### 2. Jembatan Pemahaman Kausalitas ke Jambu Kristal
+Konsep instrumen dan algoritma AI yang dipakai **100% sama persis**. Logika penghubung ilmunya:
+* **Pada Kopi Sangrai:** Sensor menangkap hilangnya air dan terbentuknya pigmen gelap melanoidin akibat panas sangrai.
+* **Pada Jambu Kristal:** Sensor menangkap pecahnya dinding sel berair, akumulasi air di rongga busuk akibat ulat *Bactrocera carambolae*, dan browning jaringan internal.
+* **Kesimpulan Ilmiah:** *"Jika sensor 18-kanal AS7265x begitu presisi membedakan perubahan kimiawi halus pada biji kopi kering yang keras, maka sensor yang sama dijamin mampu mendeteksi akumulasi air dan kerusakan jaringan pada daging buah jambu kristal yang basah!"*
+
+---
+
 ## 💡 Pembahasan Tuntas 15 Pertanyaan Refleksi (Teknis & Bisnis BuahSafe)
 
 Berikut adalah ringkasan pembahasan mendalam yang menghubungkan hasil eksperimen spektral dengan realitas bisnis dan operasional Quality Control (QC) BuahSafe:
