@@ -1,6 +1,8 @@
 # BuahSafe Preliminary Machine Learning Study
 ## Extremely Explanatory & Comprehensive Notebook for Non-AI Readers
 
+> Maintainers: read [`docs/RESEARCH_AND_EVIDENCE_GUIDE.md`](docs/RESEARCH_AND_EVIDENCE_GUIDE.md) before extending the notebook or reusing its results for guava claims.
+
 Repositori ini berisi penelitian pendahuluan dan **pipeline pemodelan Machine Learning (ML)** untuk proyek **BuahSafe**. Notebook yang disediakan dirancang **Super Duper Extensive & Explanatory** sehingga dapat dipahami sekali baca oleh pembaca non-teknis, agronomis, maupun praktisi bisnis QC, yang membagi tuntas tidak hanya cara kerja algoritmanya, tetapi juga **makna bisnis, manajemen risiko, dan strategi implementasi perangkat keras sortasi buah**.
 
 ---
