@@ -8,7 +8,7 @@
 > - **Backend API Server (HP t530 via Cloudflare Tunnel):** [https://buahsafe-api.adsurkasur.my.id](https://buahsafe-api.adsurkasur.my.id)
 >
 > 🔗 **Repositori Terkait:**
-> - **Backend & Conveyor Daemon:** [adsurkasur/buahsafe-web-capture](https://github.com/adsurkasur/buahsafe-web-capture)
+> - **Perekam Data Sensor & Server API Konveyor:** [adsurkasur/buahsafe-web-capture](https://github.com/adsurkasur/buahsafe-web-capture)
 > - **Frontend Web Client:** [adsurkasur/buahsafe-client](https://github.com/adsurkasur/buahsafe-client)
 > - **Superproject & Dokumen Output (Laporan Akhir, HAKI, Jurnal):** [adsurkasur/managed-projects-handoff](https://github.com/adsurkasur/managed-projects-handoff/tree/main/BuahSafe)
 
@@ -24,7 +24,7 @@
                                                               │
                                             ┌─────────────────┴─────────────────┐
                                             ▼                                   ▼
-                            [ Backend & Konveyor Daemon ]            [ Frontend Web Kios ]
+                            [ Perekam Sensor & Server API ]          [ Aplikasi Web Pengguna ]
                             (buahsafe-web-capture)                   (buahsafe-client)
                             Flask + SQLite + ESP32 WiFi              React 19 + TanStack + Tailwind
                             Server: HP t530 Mini PC                  Hosting: Vercel Production
